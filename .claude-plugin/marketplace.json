@@ -1,0 +1,13 @@
+{
+  "name": "tr-claude",
+  "owner": {
+    "name": "tryoo0607"
+  },
+  "plugins": [
+    {
+      "name": "tr-claude",
+      "source": "./plugins/tr-claude",
+      "description": "개발 워크플로를 위한 백본·스킬·수명주기 hook kit"
+    }
+  ]
+}
