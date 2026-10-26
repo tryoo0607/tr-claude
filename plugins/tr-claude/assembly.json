@@ -691,7 +691,7 @@
     }
   ],
   "files": {
-    ".claude-plugin/plugin.json": "c4ceaec5d2906b7481145786c04d5293a90fb4e9f4838a78435731c3eae39ceb",
+    ".claude-plugin/plugin.json": "3e0b4dc7a79690866980ed6574519d371f836a2bd695e3f3eb23e784c97ba666",
     ".mcp.json": "c9e6d0b66a74cf01a5f6950655e98392e99dab2de8cb0ca6e4aee3e443698316",
     "CLAUDE.md": "c586de8fae8862d7cd435975149f1503131c265aae5d400e744744ced2aa399d",
     "runtimes/claude-mem/.claude-plugin/plugin.json": "ca23b534dd9e1bb7520d6019a29d5179b6c50e330c0ff853ddfce6e6148b546f",
