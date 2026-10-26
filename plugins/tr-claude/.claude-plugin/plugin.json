@@ -1,9 +1,4 @@
 {
   "name": "tr-claude",
-  "description": "개발 워크플로를 위한 백본·스킬·수명주기 hook kit",
-  "version": "0.5.6",
-  "license": "Apache-2.0",
-  "author": {
-    "name": "tryoo0607"
-  }
+  "version": "0.6.0+claude.faf1fca2603e"
 }
