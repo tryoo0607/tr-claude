@@ -1,7 +1,7 @@
 {
   "product": "claude",
   "build_contract": 1,
-  "source_revision": "5b0154c6b687e037950c508127c83c0e0992b023",
+  "source_revision": "573bac62abf6c7aba6731387ba9e05afd7f46d0f",
   "dependencies": [
     {
       "id": "find-docs",
@@ -693,7 +693,7 @@
     }
   ],
   "files": {
-    ".claude-plugin/plugin.json": "237872716d6709aedfcda47d62a321efcfd572d2413f9bc8fa84065719890ac3",
+    ".claude-plugin/plugin.json": "d458040317c2bc1bdb547b5288456db1c5bbcf4b25ca8345bd2fe430c65441b0",
     ".mcp.json": "c9e6d0b66a74cf01a5f6950655e98392e99dab2de8cb0ca6e4aee3e443698316",
     "CLAUDE.md": "c586de8fae8862d7cd435975149f1503131c265aae5d400e744744ced2aa399d",
     "runtimes/claude-mem/.claude-plugin/plugin.json": "ca23b534dd9e1bb7520d6019a29d5179b6c50e330c0ff853ddfce6e6148b546f",
