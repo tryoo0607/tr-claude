@@ -1,7 +1,7 @@
 {
   "product": "claude",
   "build_contract": 1,
-  "source_revision": "dc37db7e0f01b8048c02769e4743fb92b5ba0209",
+  "source_revision": "636815adc324eb31f1134cfb95d1b138c9f342ac",
   "dependencies": [
     {
       "id": "find-docs",
@@ -1626,7 +1626,7 @@
     }
   ],
   "files": {
-    ".claude-plugin/plugin.json": "5c66821d7f5b3f5445505b3b5594674c93df141ef96fc37953fdbd48ae8ed956",
+    ".claude-plugin/plugin.json": "aac701fef7d10cb70792f40c504620e26ecc3a7953c444743a104f2cea6e0b9a",
     ".mcp.json": "c9e6d0b66a74cf01a5f6950655e98392e99dab2de8cb0ca6e4aee3e443698316",
     "CLAUDE.md": "f12aadd5fe5ef962cd501e3a0a7c3a77922602e6bf20b005bea69a688513dbd9",
     "hooks/hooks.json": "8cf3ed2b87d35383b315ffa9aaf465dd17615b4e30feb7fe72d96d1ba05ea931",
@@ -2868,11 +2868,12 @@
     "skills/security-scan/references/gitleaks.md": "b0d57d5850c5f8215f7a2788386881474492fb89805d16af72a1cd532d9a4b95",
     "skills/security-scan/references/semgrep.md": "bdaafbcef5d5d55837124190efb19e4cae87b96d2570b4864e32eb5bdee3b164",
     "skills/security-scan/references/trivy.md": "e75391ad18489e74ca6ff6151f8cd8efd5e28e2d4ba26329af27d744a9afcfcd",
-    "skills/session/SKILL.md": "770cf0a01d3a21b69bc6c0a5e56b1c4109ed0d5a64d85e13d7b407f9dea800a7",
+    "skills/session/SKILL.md": "77de9fadb2c013ec33795840ac889982cfbeba43880a976ac6c361ea0d80bd58",
     "skills/session/references/continuity.md": "d15737dc691281d262cf4ed42410bca2217193661958958a11792ced1b44f1ac",
     "skills/session/references/delegation.md": "a441a839f522b9e0a921fbfb14fd342efbc427f27c74347912e8df09f3823814",
     "skills/session/references/recovery.md": "abd8f45f8113cf74091a413ed7419912e4ce3ade50f0be580c0e4cab0e43a21b",
-    "skills/session/references/runtime-refresh.md": "f184d42867e83c2940b1b8b84b483ecdfedc6386125b6695a308e2664579b47b",
+    "skills/session/references/runtime-refresh.md": "40bc0402e278ceb0b345e6ad7876f2d175991246d7a6d4fdc6879972aacb426a",
+    "skills/session/scripts/runtime_refresh.py": "d5753ec4940abb21ae38968b16f30c67b7a7b5424b514199987d2321abe8f0d7",
     "skills/skill-authoring/SKILL.md": "c30fdc6d0379979f54796c9d2e29fc728274c5e8529c6edc714a08544e1767c7",
     "skills/skill-authoring/references/basic.md": "348dddf60e4cb5e884ab278cd1a31174e778066b8d08f943e2524c8a4f000d3f",
     "skills/skill-authoring/references/context-review.md": "f0ca012b5c2c400b823deb109c5203be94fb0c8f5377cec4ad5bf3c63cd0fc7d",
