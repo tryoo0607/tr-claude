@@ -4,6 +4,8 @@ description: Guide for creating effective skills. This skill should be used when
 metadata:
   short-description: Create or update a skill
 ---
+> tr-kit-source 변경 고지: 이 파일은 조립 시 로컬 binding으로 변경했습니다. 출처와 변환 내역은 플러그인 루트의 assembly.json을 확인합니다.
+
 
 이 배포본은 OpenAI skill-creator의 일반 저작 지침을 재사용한다. 원문의 Codex 지칭을 현재 호스트나 사용 가능한 도구로 가정하지 않는다. skill-authoring이 호출한 경우 자체 규격은 호출자가 적용한다. script는 이 SKILL.md의 부모 디렉터리를 확인해 실행한다. agents/openai.yaml은 OpenAI 제품용 metadata이며 Claude skill의 필수 산출물이 아니다. initializer가 해당 파일을 생성하므로 공통 본문만 필요하면 직접 작성한다. 지원하지 않는 제품 기능은 미검증으로 남긴다.
 
