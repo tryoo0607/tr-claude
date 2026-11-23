@@ -2,9 +2,9 @@
   "schema_version": 1,
   "product": "claude",
   "name": "tr-claude",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "profile": "guarded",
-  "source_inventory_sha256": "74a64dcdeac71931daa681701a2c863eda8ad2498eb9f6f40be38a4dcb41ba8d",
+  "source_inventory_sha256": "cb98c50d17056ff33a8b9943fa243413392547e9f61dd71c5e331198536211a0",
   "operational_ready": false,
   "requires": [
     "native hook trust and new-session verification",
