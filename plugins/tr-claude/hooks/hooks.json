@@ -1,13 +1,36 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/scripts/plugin-runtime.py\" context --product claude",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "matcher": ".*",
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/commit-guard.py\" agent --product claude",
-            "timeout": 45
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/adapters/claude/scripts/secret_guard.py\" --event PreToolUse",
+            "timeout": 45,
+            "onFailure": "block"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/scripts/plugin-runtime.py\" upstream --product claude --event PreToolUse",
+            "timeout": 8,
+            "onFailure": "block"
           }
         ]
       }
@@ -18,8 +41,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/commit-guard.py\" output --product claude",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/adapters/claude/scripts/secret_guard.py\" --event PostToolUse",
             "timeout": 45
+          }
+        ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/scripts/plugin-runtime.py\" upstream --product claude --event PostToolUse",
+            "timeout": 8
           }
         ]
       }
@@ -30,8 +63,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/commit-guard.py\" output --product claude --event PostToolUseFailure",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/adapters/claude/scripts/secret_guard.py\" --event PostToolUseFailure",
             "timeout": 45
+          }
+        ]
+      },
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -B \"${CLAUDE_PLUGIN_ROOT}/scripts/plugin-runtime.py\" upstream --product claude --event PostToolUseFailure",
+            "timeout": 8
           }
         ]
       }
