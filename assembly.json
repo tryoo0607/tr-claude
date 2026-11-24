@@ -766,19 +766,23 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/runtime-refresh.md",
-      "sha256": "dcae96d267e4c84f78733772053e3b4176eb85039f6d928629c4466bce3d3fc3"
+      "sha256": "4a3521ab146b8efbaae495b8539028464953dddc0ed6955f09d7ea7917611e4c"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/session-restart.md",
-      "sha256": "c9cef0a2fc109b40a6846fc12040ba08995942ad8a60825d8c9e38567619729d"
+      "sha256": "311618f24be341f613c5da8ef1376be18798cba967ba271949740fa35badbf43"
+    },
+    {
+      "path": "plugins/tr-claude/common/base/skills/session/scripts/claude_live_sessions.py",
+      "sha256": "df3e74a5a8fed4aa17f8ff5021edd048f55a6a330d385b8bc9d9e61903bbf31f"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/runtime_refresh.py",
-      "sha256": "8fdc0a20a31086b7d45b1b04171876e1ca381734cdfc87d38d342bf30cfe5086"
+      "sha256": "b2ef21cfe29ed589f5f6c707c81602232c35953536bb2b78692a424b5de76b2d"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/session_restart.py",
-      "sha256": "5ad4f41b5e4a92449bcfa2908752412843fb93a80695674914d4192ead910b1f"
+      "sha256": "892198942e56df04fa4c239e0f9a210bcce237e28bf29f102e7180b797d1df38"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/structuring-a-compose-test/SKILL.md",
@@ -1038,7 +1042,7 @@
     },
     {
       "path": "plugins/tr-claude/.claude-plugin/plugin.json",
-      "sha256": "d20e4ac6c12c5c6302df80485db799ae82ab36d900c395678fe5812a66f41b80"
+      "sha256": "6a0f854e5bb360d73bca2e4e661f67eee5a604f3a40d1dd7c89d00462e1d53e5"
     },
     {
       "path": "plugins/tr-claude/hooks/hooks.json",
@@ -1046,7 +1050,7 @@
     },
     {
       "path": "plugins/tr-claude/installation.json",
-      "sha256": "96cdf7bb7d9c1926526f264de8a6a4cd35731c2da1a79f3de7edb199f6b40053"
+      "sha256": "4caeb5ecc9186f63a3d9d506ca381bb17d75313ede0a246eaa20b84f6bf3a881"
     },
     {
       "path": ".claude-plugin/marketplace.json",
@@ -1054,7 +1058,7 @@
     },
     {
       "path": "release.json",
-      "sha256": "26985d0e8cc4abf91eda6dc2f1a0ab2e3c69bdfd227a54319d43a7204aa834dc"
+      "sha256": "a5aa7f98313c658f417af06858a780668e7d47bea7d86716a17667d5f9b75fc8"
     }
   ],
   "limits": "Own-source bundle only. Native discovery, trust and installation are not certified."
