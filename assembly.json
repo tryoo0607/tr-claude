@@ -766,19 +766,19 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/runtime-refresh.md",
-      "sha256": "2eef0552990dd25be4258a63588654b1d5120c74deead65fa2d3503f90e3bfce"
+      "sha256": "dcae96d267e4c84f78733772053e3b4176eb85039f6d928629c4466bce3d3fc3"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/session-restart.md",
-      "sha256": "32b4e105c102e7dae9d850b36e9b7d7edd5522256dced67de54a61c575a56b4a"
+      "sha256": "c9cef0a2fc109b40a6846fc12040ba08995942ad8a60825d8c9e38567619729d"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/runtime_refresh.py",
-      "sha256": "b0981b05eabf645f75851e92bd7c21dd9029abd5262e6509ee37610f9a680784"
+      "sha256": "8fdc0a20a31086b7d45b1b04171876e1ca381734cdfc87d38d342bf30cfe5086"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/session_restart.py",
-      "sha256": "cbd4a2eaec1c72b9a7d282252f5079ca2b907916a80a698cf3bca7b2bf9bdc45"
+      "sha256": "5ad4f41b5e4a92449bcfa2908752412843fb93a80695674914d4192ead910b1f"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/structuring-a-compose-test/SKILL.md",
@@ -1038,7 +1038,7 @@
     },
     {
       "path": "plugins/tr-claude/.claude-plugin/plugin.json",
-      "sha256": "5cbbd72f58739f8a13930d2f113708bf818b0b00ab9c5b24d719d3775700c809"
+      "sha256": "d20e4ac6c12c5c6302df80485db799ae82ab36d900c395678fe5812a66f41b80"
     },
     {
       "path": "plugins/tr-claude/hooks/hooks.json",
@@ -1046,7 +1046,7 @@
     },
     {
       "path": "plugins/tr-claude/installation.json",
-      "sha256": "25a19039b6ef5b6516cc5aef6ff35aed19e32f9b68ee9ce8227939ac41b8487a"
+      "sha256": "96cdf7bb7d9c1926526f264de8a6a4cd35731c2da1a79f3de7edb199f6b40053"
     },
     {
       "path": ".claude-plugin/marketplace.json",
@@ -1054,7 +1054,7 @@
     },
     {
       "path": "release.json",
-      "sha256": "c0dc73e481d59fedb0a0d6da204117ff09b57ae7c4cff84e2c08e7aa0db68384"
+      "sha256": "26985d0e8cc4abf91eda6dc2f1a0ab2e3c69bdfd227a54319d43a7204aa834dc"
     }
   ],
   "limits": "Own-source bundle only. Native discovery, trust and installation are not certified."
