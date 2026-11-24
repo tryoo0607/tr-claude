@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "claude",
   "name": "tr-claude",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "profile": "guarded",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "92791cd88b191bcf0a9f8f983ccffb95ffcc42abd096c529b55fdebf573a22b7"
+      "sha256": "5cbbd72f58739f8a13930d2f113708bf818b0b00ab9c5b24d719d3775700c809"
     },
     {
       "path": "INSTALL.md",
@@ -495,7 +495,7 @@
     },
     {
       "path": "common/base/skills/session/references/session-restart.md",
-      "sha256": "460cede6c051093236ff4e5046348ba28a5b634d0d26a3855a66b2f04cbb5cd8"
+      "sha256": "32b4e105c102e7dae9d850b36e9b7d7edd5522256dced67de54a61c575a56b4a"
     },
     {
       "path": "common/base/skills/session/scripts/runtime_refresh.py",
@@ -503,7 +503,7 @@
     },
     {
       "path": "common/base/skills/session/scripts/session_restart.py",
-      "sha256": "aea5d85fc00cb0ccbb340f9b1471cdfb4c41e8fd80326de4a7aaaaf1b1e492fc"
+      "sha256": "cbd4a2eaec1c72b9a7d282252f5079ca2b907916a80a698cf3bca7b2bf9bdc45"
     },
     {
       "path": "common/base/skills/structuring-a-compose-test/SKILL.md",

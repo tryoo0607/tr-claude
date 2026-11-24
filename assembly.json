@@ -770,7 +770,7 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/session-restart.md",
-      "sha256": "460cede6c051093236ff4e5046348ba28a5b634d0d26a3855a66b2f04cbb5cd8"
+      "sha256": "32b4e105c102e7dae9d850b36e9b7d7edd5522256dced67de54a61c575a56b4a"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/runtime_refresh.py",
@@ -778,7 +778,7 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/session_restart.py",
-      "sha256": "aea5d85fc00cb0ccbb340f9b1471cdfb4c41e8fd80326de4a7aaaaf1b1e492fc"
+      "sha256": "cbd4a2eaec1c72b9a7d282252f5079ca2b907916a80a698cf3bca7b2bf9bdc45"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/structuring-a-compose-test/SKILL.md",
@@ -1038,7 +1038,7 @@
     },
     {
       "path": "plugins/tr-claude/.claude-plugin/plugin.json",
-      "sha256": "92791cd88b191bcf0a9f8f983ccffb95ffcc42abd096c529b55fdebf573a22b7"
+      "sha256": "5cbbd72f58739f8a13930d2f113708bf818b0b00ab9c5b24d719d3775700c809"
     },
     {
       "path": "plugins/tr-claude/hooks/hooks.json",
@@ -1046,7 +1046,7 @@
     },
     {
       "path": "plugins/tr-claude/installation.json",
-      "sha256": "a442435aa802ffbd660c6478727978c20809956cebeaa89b389c068bfd06f264"
+      "sha256": "25a19039b6ef5b6516cc5aef6ff35aed19e32f9b68ee9ce8227939ac41b8487a"
     },
     {
       "path": ".claude-plugin/marketplace.json",
@@ -1054,7 +1054,7 @@
     },
     {
       "path": "release.json",
-      "sha256": "d3110a9a3877626d6285dcb9300cf7c4c04589858440de8a95a4ae36079a070d"
+      "sha256": "c0dc73e481d59fedb0a0d6da204117ff09b57ae7c4cff84e2c08e7aa0db68384"
     }
   ],
   "limits": "Own-source bundle only. Native discovery, trust and installation are not certified."
