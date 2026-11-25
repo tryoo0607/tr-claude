@@ -766,7 +766,7 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/runtime-refresh.md",
-      "sha256": "e9926bcbf5733231bf1f96a1c991f506344e7c0d082efb3c490f492e6b81b79d"
+      "sha256": "dd296402abcf9208f42dafb87a324d2c2375dea08075ad7ec1a9cb6c6c2b1b9d"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/references/session-restart.md",
@@ -778,7 +778,7 @@
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/runtime_refresh.py",
-      "sha256": "06c54d72eb84a70a5e657d5da9ae9ccee238381a65a28459af7229c25678f52b"
+      "sha256": "8bcd3c8d35c44ad3d789eeb58cc9bc60c4173522fdee0e8b2eef3d4018c14d93"
     },
     {
       "path": "plugins/tr-claude/common/base/skills/session/scripts/session_restart.py",
@@ -1042,7 +1042,7 @@
     },
     {
       "path": "plugins/tr-claude/.claude-plugin/plugin.json",
-      "sha256": "77acd0deeedbe0afc635a80754b95bb41f333f4c67a3bd9fb8b1bab6a378b742"
+      "sha256": "aa3936e1283bacf01536c02ca4b2a4e0c1e8640090e02ae3ab05966e2c383f42"
     },
     {
       "path": "plugins/tr-claude/hooks/hooks.json",
@@ -1050,7 +1050,7 @@
     },
     {
       "path": "plugins/tr-claude/installation.json",
-      "sha256": "68d66f75bda32e7b39aece64b431540aa5019f01d5c5501e4eefce341d9493de"
+      "sha256": "acd9d4a390f8ed972f752781515f747ea81a5ac3cbdc505819a5cde71311c376"
     },
     {
       "path": ".claude-plugin/marketplace.json",
@@ -1058,7 +1058,7 @@
     },
     {
       "path": "release.json",
-      "sha256": "fcf42b185b9033fc428f5f175666d4fc73fdb832fe8339c36211bc62a276e0b5"
+      "sha256": "7ae330eda1e4df13caea232b5ec2638e71f50a69e34e1b8af551d87f97a9ad39"
     }
   ],
   "limits": "Own-source bundle only. Native discovery, trust and installation are not certified."
