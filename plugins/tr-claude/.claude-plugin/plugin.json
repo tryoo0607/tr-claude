@@ -1,7 +1,7 @@
 {
   "name": "tr-claude",
-  "version": "0.8.10",
+  "version": "0.8.11",
   "description": "tr-kit common workflows and policy connections",
-  "skills": "./common/base/skills/",
+  "skills": "./skills/",
   "hooks": "./hooks/hooks.json"
 }
