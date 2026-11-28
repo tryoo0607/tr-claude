@@ -2,16 +2,16 @@
   "schema_version": 1,
   "product": "claude",
   "name": "tr-claude",
-  "version": "0.8.12",
+  "version": "0.8.13",
   "profile": "guarded",
   "files": [
     {
       "path": ".claude-plugin/plugin.json",
-      "sha256": "efaf1aacdb51eb3c366b187a10a602a77a6597593036a1c5e27540081ebe4be2"
+      "sha256": "615fc51bb26e684919d4c8c490384ebbdc760b203635608a75655ce35114b472"
     },
     {
       "path": "INSTALL.md",
-      "sha256": "1f71085723bab7c1e68b9be7147a3c87c7b427752645f2ebbdcdd8ee0fdbb710"
+      "sha256": "bf65f35fbe94d9ca6185ee241812d1e545252fedfc1c4005fdfc1fa7fd6f57a8"
     },
     {
       "path": "LICENSE",
@@ -59,7 +59,7 @@
     },
     {
       "path": "references/external-review.md",
-      "sha256": "f3dc9ae03efd04351a340c1ad58280a795877c2b2eb272fefe108ea7604d58f2"
+      "sha256": "4fa9ef0fc030bf10dffb13529f43b3a2b9d724da3368171262678515d90a8d11"
     },
     {
       "path": "references/products/claude/skills/artifact-publish/references/external.md",
@@ -151,7 +151,7 @@
     },
     {
       "path": "scripts/lib/common/orca_connection.py",
-      "sha256": "120b1356167178fc375704765578ec760e4da5969128c8d34ea11426ba12e3a7"
+      "sha256": "f4641c9b1e3b0d5832e1bc81f56434b8873c913102044336a66125e9e322787d"
     },
     {
       "path": "scripts/lib/common/plugin_runtime.py",
@@ -167,7 +167,7 @@
     },
     {
       "path": "scripts/lib/common/provider_review.py",
-      "sha256": "b1b76c127ff0ed303d01cd343740b9fe1c415b4485bdf78a884a0bbd5755e699"
+      "sha256": "9f53f182e8bcb61bf823f84376e68ea7f29d2b3200f511b09dc48422bf35d606"
     },
     {
       "path": "scripts/lib/common/run_upstream_guard.sh",
@@ -627,11 +627,11 @@
     },
     {
       "path": "skills/session/references/runtime-refresh.md",
-      "sha256": "6fc2f949770ff371bd3fa3d87a9a92e9e0b9c59eac8ed5de009844a0f43a08c0"
+      "sha256": "097ed26d1474c56027d05197c5af07259d3d01ccbfcd6b921608f96b8e453881"
     },
     {
       "path": "skills/session/references/session-restart.md",
-      "sha256": "f423ef410cb17ad72979d090641eca1e4bf2a1963235333467971f29a19ab51b"
+      "sha256": "9b763dc1e41b719be7e330d38752175c16c59d09d2aa6ef4c7eab6242f6ed83f"
     },
     {
       "path": "skills/session/scripts/claude_checked_resume.py",
@@ -643,11 +643,11 @@
     },
     {
       "path": "skills/session/scripts/runtime_refresh.py",
-      "sha256": "d494b741d53c9c199fc08d8d78b33a8970bf335660fc88bf67c815ed6ffb08b9"
+      "sha256": "892cb65120c28fb0e63e32c25a7662fbb05abaefd22d4e40800671da905e725a"
     },
     {
       "path": "skills/session/scripts/session_restart.py",
-      "sha256": "1a2c13eacf2ba39a169c855b277886eaa8d69c5356cf61efc556c0686e37e929"
+      "sha256": "6d61f7fcaf536afd72ea822667f268be86a39eb56548df2494b60bfd37349971"
     },
     {
       "path": "workflow.md",
